@@ -1,6 +1,9 @@
 # Genealogic Search
 
-- Cada miembro del árbol tiene una tarjeta con un QR que está linkado a sus datos dentro de la base de datos
-- Mediante la lectura de dos QRs de personas dentro del mismo árbol, la herramienta retorna el parentesco entre los datos de los QRs introducidos.
-- También devuelve una imagen del árbol completo resaltando la conexión entre las dos personas consultadas
-- Si se introduce dos veces el mismo QR, se puede devolver un mensaje divertido
+## genealogic-email
+
+Coded in python
+
+Get service request from emails where users sends pictures of QRs codes. Each QR code represents a member of the tree. The app process the image looking for information related to the members and looks for a relation.
+
+Once has finished. Sends back an email to the user with the relation between two people and an image of full tree highlighting the path between them.
